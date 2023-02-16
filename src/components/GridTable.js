@@ -3,7 +3,7 @@ import { DataGrid } from '@mui/x-data-grid';
 import GetData from "./GetData";
 
 const columns = [
-  { field: "name", headerName: "Name", width: 200 },
+  { field: "name", headerName: "Name", width: 300 },
   {
     field: "html_url",
     headerName: "GitHub_URL",

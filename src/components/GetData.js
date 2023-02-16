@@ -13,8 +13,6 @@ const GetData = () => {
         url: `https://api.github.com/repos/${username}/${repoName}/contents/scrapers`
       }).then(response => {
         setRepo(response.data)
-      }).catch(error => {
-        console.log(error)
       })
     }, []);
 
